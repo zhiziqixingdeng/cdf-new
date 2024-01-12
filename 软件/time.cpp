@@ -2,15 +2,15 @@
 #include <cstdlib>
 #include <unistd.h>
 using namespace std;
-int a,b,c;//Ğ¡Ê±£¬·ÖÖÓ£¬Ãë
+int a,b,c;//å°æ—¶ï¼Œåˆ†é’Ÿï¼Œç§’
 int cnt;
 int x,y,z;
-void time(){
-	cout<<"Ğ¡Ê±:";
+void ttime(){
+	cout<<"å°æ—¶:";
 	cin>>a;
-	cout<<"·ÖÖÓ:";
+	cout<<"åˆ†é’Ÿ:";
 	cin>>b;
-	cout<<"Ãë:";
+	cout<<"ç§’:";
 	cin>>c;
 	cnt=a*3600+b*60+c;
 	system("cls");
@@ -28,6 +28,6 @@ void time(){
 			x++;
 		}
 	}
-	cout<<"Ê±¼äµ½"<<endl;
+	cout<<"æ—¶é—´åˆ°"<<endl;
 	return;
 }
