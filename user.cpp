@@ -2,6 +2,10 @@
 #include "people.h"
 using namespace std;
 extern you;
+void game(){
+    cout<<"请去zhizi-sandbox"<<endl;
+    return 0;
+}
 void user(){
     int n;
     int w;
